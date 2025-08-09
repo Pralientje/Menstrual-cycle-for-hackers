@@ -1,0 +1,151 @@
+body {
+  font-family: 'Fira Code', monospace;
+  background: #0d1117;
+  color: #c9d1d9;
+  margin: 0;
+  padding: 2rem;
+}
+
+h1, h2 {
+  color: #ff79c6;
+}
+
+pre {
+  background: #161b22;
+  padding: 1rem;
+  border-radius: 8px;
+  overflow-x: auto;
+}
+
+header, footer {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+/* Style the buttons */
+button {
+    background-color: #ff0077;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #ff3399;
+}
+
+/* Smooth fade-in effect for cycle updates */
+#cycle-output {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #ff0077;
+    transition: opacity 0.5s ease-in-out;
+    opacity: 0;
+}
+
+.fade-in {
+    opacity: 1;
+}
+
+/* Emotional impact section */
+.emotion-impact {
+    background-color: #ffe6f2;
+    color: #090c10;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.phase {
+    margin-bottom: 15px;
+    padding: 15px;
+    border-left: 5px solid #ff0077;
+    background: #fff;
+    border-radius: 5px;
+}
+
+.phase h3 {
+    color: #ff0077;
+}
+
+#emergency-mode {
+    background: #ffcccc;
+    padding: 20px;
+    color: #090c10;
+    border-radius: 10px;
+    border: 3px solid #ff0000;
+}
+
+#emergency-message {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 10px;
+    animation: emergencyFlash 1s infinite alternate;
+}
+
+@keyframes emergencyFlash {
+    0% { opacity: 1; }
+    100% { opacity: 0.5; }
+}
+#emergency-text {
+    background-color: #ffcccc;
+    padding: 20px;
+    border-radius: 10px;
+    border: 3px solid #ff0000;
+    font-family: monospace;
+    white-space: pre-line;
+}
+
+#typing-effect {
+    font-size: 1.2rem;
+    color: #ff0000;
+    font-weight: bold;
+    border-right: 3px solid #ff0000; /* Simulates blinking cursor */
+    animation: blinkCursor 0.5s infinite;
+}
+
+@keyframes blinkCursor {
+    0% { border-color: #ff0000; }
+    50% { border-color: transparent; }
+    100% { border-color: #ff0000; }
+}
+#boss-mode {
+    background: #222;
+    color: #ffcc00;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    border: 3px solid #ffcc00;
+}
+
+#boss-mode h2 {
+    font-size: 2rem;
+}
+
+#boss-mode p {
+    font-size: 1.2rem;
+}
+
+button {
+    background-color: #ff0077;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #ff3399;
+}
+/* 🕵️ FLAG PARTIAL: pink_draconian{inspect_element_is_key} */
+.hidden-flag {
+    display: none;
+    color: #222;
+}
