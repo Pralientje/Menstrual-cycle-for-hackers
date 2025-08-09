@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Menstrual Cycle for Hackers</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>💻 Menstrual Cycle for Hackers</h1>
+    <p>Understanding hormones like they're a security stack.</p>
+  </header>
+
+  <section id="intro">
+    <h2>🚀 Welcome, PinkDraconian!</h2>
+    <p>This guide explains the menstrual cycle as a structured system—so you can analyze, debug, and support accordingly!</p>
+  </section>
+
+  <section class="cycle-api">
+    <h2>🔐 Cycle as an API</h2>
+    <p>Click a button to simulate each phase:</p>
+
+    <button onclick="menstruation()">🩸 Menstruation</button>
+    <button onclick="follicularPhase()">🔍 Follicular Phase</button>
+    <button onclick="ovulation()">⚠️ Ovulation</button>
+    <button onclick="lutealPhase()">🛡️ Luteal Phase</button>
+    <button onclick="resetCycle()">♻️ Reset System</button>
+
+    <p id="cycle-output">System Status: <strong>Awaiting Input...</strong></p>
+  </section>
+
+  <section id="cycle-log">
+    <h3>📜 Cycle History Log</h3>
+    <div id="log-container"></div>
+  </section>
+
+  <section class="emotion-impact">
+    <h2>❤️ Emotional Response & Partner Support</h2>
+    
+    <div class="phase">
+        <h3>🩸 Menstruation - Low Power Mode</h3>
+        <p><strong>How I feel:</strong> Low energy, quiet, needs space, in pain.</p>
+        <p><strong>How I act:</strong> Tired, sad, a bit more happy nearing the end of the red week.</p>
+        <p><strong>What I need:</strong> Warmth, patience, zero unnecessary stress.</p>
+        <p><strong>How you can support:</strong> Soft comfort, no deep conversations, let me rest and warm up Pjotter.</p>
+    </div>
+
+    <div class="phase">
+        <h3>🔍 Follicular Phase - System Reboot</h3>
+        <p><strong>How I feel:</strong> Energetic, productive, optimistic, enthousiastic.</p>
+        <p><strong>What I need:</strong> Encouragement, social interaction, now's the time for deep talks.</p>
+        <p><strong>How you can support:</strong> Engaging activities, fun teamwork, brainstorming, initiating s*x.</p>
+    </div>
+
+    <div class="phase">
+        <h3>💥 Ovulation - Peak Performance Mode</h3>
+        <p><strong>How I feel:</strong> Magnetic, attractive, charming, highly social, horny :p.</p>
+        <p><strong>What I need:</strong> Flirty interactions, confidence boost, spontaneity, excitement.</p>
+        <p><strong>How you can support:</strong> Compliments, romantic gestures, spontaneous fun plans, s*x.</p>
+    </div>
+
+    <div class="phase">
+        <h3>🌒 Luteal Phase - Unstable Firmware</h3>
+        <p><strong>How I feel:</strong> Mood variations!!! Some days high-energy, others introspective or irritable.</p>
+        <p><strong>What I need:</strong> Reassurance, soft communication, emotional understanding.</p>
+        <p><strong>How you can support:</strong> Gentle conversations, avoid debates, offer small thoughtful gestures.</p>
+    </div>
+  </section>
+
+  <section id="emergency-mode">
+    <h2>🚨 EMERGENCY MODE: Emotional Crisis Detected!</h2>
+    <p>Click below to activate support protocol:</p>
+    
+    <button onclick="activateEmergencyMode()">⚡ Activate Emergency Mode</button>
+
+    <div id="emergency-text" style="display: none;">
+        <p id="typing-effect"></p>
+    </div>
+  </section>
+
+  <section id="boss-mode" style="display: none;">
+    <h2>🔥 BOSS LEVEL MODE ACTIVATED!</h2>
+    <p>⚡ You are now entering the *Ultimate Support Challenge.* Prepare accordingly.</p>
+
+    <p id="boss-strategy"></p>
+    
+    <button onclick="generateStrategy()">🎯 Generate Support Strategy</button>
+    <button onclick="exitBossMode()">❌ Exit Boss Mode</button>
+  </section>
+
+  <button id="boss-mode-button" onclick="activateBossMode()">⚔️ Unlock Boss Mode</button>
+
+  <footer>
+    <p>🚺 Brought to you with <span onclick="secretLove()">❤️</span> and logic.</p>
+    <p>Made with a bit of help by the Internet and Copilot/chat gpt :p </p>
+  </footer>
+
+  <!-- JavaScript file reference -->
+  <script src="script.js"></script>
+
+</body>
+</html>
